@@ -38,3 +38,14 @@ print [x for x in items if x[2] == 0]
 
 print any(item[2] == 0 for item in items)
 # True
+
+"""
+
+
+You could use itertools's takewhile like this, it will stop once a
+condition is met that fails your statement. The opposite method would be dropwhile
+
+for x in itertools.takewhile(lambda x: x[2] == 0, list)
+    print x
+
+"""
