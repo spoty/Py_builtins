@@ -1,0 +1,15 @@
+"""
+
+ sum(iterable[,start])
+
+    Sums start and the items of an iterable from left to right and returns the
+    total. start defaults to 0. The iterable‘s items are normally numbers, and
+    the start value is not allowed to be a string.
+
+    For some use cases, there are good alternatives to sum(). The preferred,
+    fast way to concatenate a sequence of strings is by calling
+    ''.join(sequence). To add floating point values with extended precision, see
+    math.fsum(). To concatenate a series of iterables, consider using
+    itertools.chain().
+
+"""
