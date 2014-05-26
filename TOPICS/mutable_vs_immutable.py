@@ -17,9 +17,21 @@ And id()method is good way to tell. For example"""
 
 # For an integer:
 
-n = 1 id(n) # **704 n = n + 1 n # 2 id(n) # **736
+n = 1 id(n)
+# **704
+n = n + 1
+n
+# 2
+id(n)
+# **736
 
 # For a list:
 
-m = [1] id(m) #**416 m.append(2) m #[1, 2] id(m) #**416
+m = [1] id(m)
+#**416
+m.append(2)
+m
+#[1, 2]
+id(m)
+#**416
 
