@@ -22,3 +22,5 @@ unexpected, difficult to debug problems. This is one reason to avoid using
 locals(). Another is that it's generally a lot of complication just to do things
 that python provides simpler, less error prone ways of doing (like creating a
 sequence of variables).
+
+http://stackoverflow.com/questions/8028708/dynamically-set-local-variable-in-python
